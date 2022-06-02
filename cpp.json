@@ -27,7 +27,7 @@
 			"}",
 			"void loop(){",
 			"${3:\/\/Loop code starts here.}",
-			"}",
+			"}"
 		],
 		"description": "Boilerplate for starting a Blinks sketch."
 	},
