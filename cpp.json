@@ -45,7 +45,12 @@
 	},
 	"setValueSentOnAllFaces":{
 		"prefix": "sendAll",
-		"body": ["setValueSentOnAllFaces(${1:Value}, f);"],
-		"description": ""
+		"body": ["setValueSentOnAllFaces(${1:Value});"],
+		"description": "Alias for setValueSentOnAllFaces(v);"
+	},
+	"setValueSentOnFace": {
+		"prefix": ["setEachFace", "setValueSentOnFace", "!setFace"],
+		"body": "setValueSentOnFace(${1:VALUE}, ${2:f});",
+		"description": "Alias for setValueSentOnAllFaces(f)."
 	}
 }
